@@ -134,8 +134,8 @@ Outputs are kept in the notebook so the run can be read without re-running it.
   demo answer matches gold exactly. The join demo is still wrong (wrong collection, `$lookup`
   missing).
 - **Not an accuracy result.** Lower dev loss and valid JSON only show the pipeline works.
-  Execution accuracy on Atlas with the project scorer is still pending and nothing has been
-  added to the ledger.
+  Execution accuracy on Atlas with the project scorer is still pending; nothing has been
+  added to the ledger beyond the provisional entry MQL-0009.
 - **Next:** score the adapter on Atlas; try r 8/32, lr 1e-4, 2 epochs, and the 7B model; use
   both Kaggle T4s to cut training time.
 
